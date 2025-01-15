@@ -1,0 +1,18 @@
+@import url("global.css");
+@import url("colors.css");
+
+header {
+  background-color: var(--cor5);
+  padding: 32px;
+}
+
+nav > a {
+  color: #1b99b6;
+  font-size: 1.25em;
+  margin-left: 1rem;
+  transition: all .5s ease;
+}
+
+nav > a:hover {
+  color: #ffffff;
+}
