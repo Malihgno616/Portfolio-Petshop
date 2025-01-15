@@ -1,15 +1,6 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<?php 
 
-<head>
-    <meta charset="UTF-8">
-    <?php include_once("../layout/head.php");?>
-    <title>Document</title>
-    <link href="../dist/tailwind.css" rel="stylesheet">
-</head>
+ini_set("default_charset", "utf8mb4");
 
-<body>
-    <?php include_once("../layout/header.php") ?>
-</body>
-
-</html>
+include_once("../layout/head.php");
+include_once("../layout/header.php");
