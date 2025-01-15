@@ -2,17 +2,36 @@
 @import url("colors.css");
 
 header {
-  background-color: var(--cor5);
-  padding: 32px;
+  background-color: var(--cor1);
+  padding: 1.25em;
+  position: sticky;
+}
+
+header > nav {
+   display: flex;
+   justify-content: space-evenly;
 }
 
 nav > a {
-  color: #1b99b6;
+  color: #ffffff;
   font-size: 1.25em;
   margin-left: 1rem;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
 
 nav > a:hover {
-  color: #ffffff;
+  color: #bb3030;
+}
+
+button {
+  font-size: 2rem;
+  border: none;
+  padding: 5px; 
+  border-radius: 10px;
+  background-color: var(--cor4);
+  display: none;
+}
+
+button:hover {
+  filter: brightness(1.3);
 }
