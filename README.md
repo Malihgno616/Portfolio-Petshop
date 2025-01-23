@@ -1,4 +1,4 @@
-# Portfolio PETSHOP
+# PETSHOP-Projeto
 
 ## Este projeto tem o intuito de praticar a lógica de programação junto com problemas reais do dia a dia
 
