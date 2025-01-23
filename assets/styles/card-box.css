@@ -2,7 +2,6 @@
 
 h1 {
   color: #949494;
-  
   margin-top: 5rem;
 }
 
@@ -24,7 +23,7 @@ h1 {
   height: 200px;
   margin: 1rem;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.336);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.336);
   transition: all .5s ease;
 }
 
