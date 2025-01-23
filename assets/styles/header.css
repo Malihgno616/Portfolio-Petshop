@@ -3,13 +3,14 @@
 
 header {
   background-color: var(--cor1);
-  padding: 1.25em;
+  padding: 1.2em;
   position: sticky;
 }
 
 header > nav {
    display: flex;
    justify-content: space-evenly;
+   margin: 0;
 }
 
 nav > a {
