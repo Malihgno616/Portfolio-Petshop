@@ -1,4 +1,4 @@
-<h1>Nossos serviços em destaque</h1>
+<h1>Categorias de Produtos em Destaque</h1>
 <div class="container">
   <div class="box">Banho e Tosa</div>
   <div class="box">Acessórios</div>
