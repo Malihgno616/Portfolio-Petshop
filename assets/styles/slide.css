@@ -5,7 +5,7 @@
 }
 
 .slides-container {
-  height: calc(100vh - 15rem);
+  height: calc(100vh - 3rem);
   width: 100%;
   display: flex;
   overflow: scroll;
@@ -57,18 +57,25 @@
 }
 
 .slide:nth-child(1) {
-  background-color: var(--cor1);
+  background-image: url("../img/slide1.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .slide:nth-child(2) {
-  background-color: var(--cor2);
+  background-image: url("../img/slide2.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .slide:nth-child(3) {
-  background-color: var(--cor5);
-  margin: 0;
+  background-image: url("../img/slide4b.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .slide:nth-child(4) {
-  background-color: var(--cor4);
+  background-image: url("../img/slide4.jpg");
+  background-size: cover;
+  background-position: center;
 }
