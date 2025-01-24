@@ -1,6 +1,24 @@
 @import url("global.css");
 @import url("colors.css");
 
+.login{
+  background-color: var(--cor5);
+  width: 100%;
+  height: 10vh;
+  padding: 0;
+}
+
+.login > a {
+  text-decoration: none;
+  color: #000;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.login > a:hover {
+  text-decoration: underline;
+}
+
 header {
   background-color: var(--cor1);
   padding: 1.2em;

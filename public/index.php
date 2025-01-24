@@ -1,6 +1,12 @@
 <?php 
-header('Content-Type: text/html; charset=utf-8');
 session_start();
+
+define('CONTROL', true);
+
+$routes = [
+  'login'=> 'login.php',
+  'home' => 'index.php'
+];
 
 include_once("../layout/head.php");
 include_once("../layout/header.php");

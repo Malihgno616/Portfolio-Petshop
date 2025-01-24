@@ -1,3 +1,4 @@
+<div class="login"><a href="login.php">Login/Cadastro</a></div>
 <header>
     <nav>
         <a href="#">Home</a>
