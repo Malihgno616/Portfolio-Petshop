@@ -1,7 +1,11 @@
-<form action="index.php?route=login" class="login" method="post">
-  <div class="container">
-    <input type="text" id="user" name="user" placeholder="Digite seu nome" required>
-    <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+<div class="back-image">
+  <div class="contain">
+    <form action="index.php?route=login"  method="post">
+    <input type="text" id="user" name="user" placeholder="Insira seu nome" required>
+    <input type="password" id="password" name="password" placeholder="Insira sua senha" required>
+    <a href="#">Fazer o cadastro</a>
+    <a href="#">Esqueci a senha</a>
     <input type="submit" value="Logar">
-  </div>
-</form>
+  </form>
+</div>
+</div>
