@@ -16,11 +16,11 @@ div {
     justify-content: center;
 }
 
-div > img {
+div > .logo {
     border-radius: 50%;
     transition: all .5s ease;
 }
 
-div > img:hover {
+div > .logo:hover {
     transform: scale(1.1);
 }
